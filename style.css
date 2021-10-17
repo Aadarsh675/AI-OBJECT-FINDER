@@ -1,0 +1,41 @@
+body {
+    background-size: cover;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin-top: 0px;
+}
+#objectname {
+    font-size: 20px;
+    margin-top: 0px;
+}
+#start {
+    font-size: 20px;
+    margin-top: 0px;
+}
+#status {
+    font-size: 20px;
+    margin-top: 0px;
+}
+#number_of_objects {
+    font-size: 20px;
+    margin-top: 0px;
+}
+.copy_right_footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 3;
+}
+canvas {
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 87.5px;
+}
