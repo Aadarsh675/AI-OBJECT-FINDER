@@ -45,9 +45,9 @@ function start() {
 function modelLoaded() {
     console.log("Model Loaded Successfully");
     status = true;
-    objectDetector.detect(video, gotResult);
+    objectDetector.detect(video, gotResults);
 }
-function gotResult(error, results) {
+function gotResults(error, results) {
     if (error) {
         console.error(error);
     }
